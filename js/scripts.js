@@ -1,5 +1,19 @@
 // business logic for travel log
 
+function TravelLog() {
+  this.destinations = {}
+  this.currentId = 0;
+}
+TravelLog.prototype.assignId = function() {
+  this.currentId += 1;
+  return this.currentId
+}
+TravelLog.prototype.addDestination = function(destination) {
+  destination.id = this.assignId();
+  this.destinations[destination.id] = destination;
+}
+
+
 
 
 // business logic for locations

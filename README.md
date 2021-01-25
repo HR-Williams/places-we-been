@@ -31,6 +31,8 @@ Expect(Destination("Paris").toEqual({location: "Paris"}))
 
 Expect (Destination("Paris", "Eiffel Tower", "expensive", "Eat a lot of bread").toEqual({location: "Paris", landmarks:["Eiffel Tower"], cost: "expensive", notes: ["Eat a lot of bread"]}))
 
+4. Test: "It should return TravelLog.destination
+
 
 ## Setup/Installation Requirements
 
