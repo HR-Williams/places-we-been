@@ -1,19 +1,20 @@
-# _{Application Name}_
+# _Places We've Been_
 
-#### _{Brief description of application}_
+#### _A program to keep track of the places we have been across the world._
 
-#### By _**{List of contributors}**_
+#### By _**Louie Schoenknecht & HR Williams**_
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* _JavaScript_
+* _HTML_
+* _CSS_
+* _Bootstrap_
+* _jQuery_
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_This program was written to practice using prototypes and constructors while learning object-oriented JavaScript._
 
 ## Specifications
 
@@ -31,28 +32,29 @@ Expect(Destination("Paris").toEqual({location: "Paris"}))
 
 Expect (Destination("Paris", "Eiffel Tower", "expensive", "Eat a lot of bread").toEqual({location: "Paris", landmarks:["Eiffel Tower"], cost: "expensive", notes: ["Eat a lot of bread"]}))
 
-4. Test: "It should return TravelLog.destination
+4. Test: "It should return entered destination and key-values in the travel log."
+Expect: (travelLog;).toReturn(TravelLog {destinations: {...}})
+
+5. Test: "It should assign ID to destination beginning at 0 and counting up by 1 for each new object."
+Expect: (travelLog;).toReturn(TravelLog {destinations: {...}, currentId: 1})
 
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Clone this repository to your desktop_
+* _navigate to places directory_
+* _open places/index.html in your browser_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _No known bugs_
 
 ## License
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_[MIT](https://choosealicense.com/licenses/mit/)_
 
 ## Contact Information
 
-_{Add your contact information here.}_
+_luisesch97@gmail.com williams.hr@gmail.com_ 

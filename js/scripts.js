@@ -13,9 +13,6 @@ TravelLog.prototype.addDestination = function(destination) {
   this.destinations[destination.id] = destination;
 }
 
-
-
-
 // business logic for locations
 
 function Destination(location, landmarks, cost, notes) {
