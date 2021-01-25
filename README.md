@@ -19,13 +19,17 @@ _{This is a detailed description of your application. Give as much detail as nee
 
 Describe Destination(location, landmarks, cost, notes)
 
-Test: "It should return location: undefined if new Destination object is created with no key values"
+1. Test: "It should return location: undefined if new Destination object is created with no key values"
 
 Expect (Destination().toEqual({undefined}))
 
-Test: "It should return "Destination.location: Paris" if the user inputs let Destination = new Destination("Paris")."
+2. Test: "It should return "Destination.location: Paris" if the user inputs "let Destination = new Destination("Paris")."
 
 Expect(Destination("Paris").toEqual({location: "Paris"}))
+
+3. Test: "It should return each key-value for user entered location, landmarks, cost, and notes"
+
+Expect (Destination("Paris", "Eiffel Tower", "expensive", "Eat a lot of bread").toEqual({location: "Paris", landmarks:["Eiffel Tower"], cost: "expensive", notes: ["Eat a lot of bread"]}))
 
 
 ## Setup/Installation Requirements
