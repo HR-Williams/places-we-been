@@ -15,6 +15,19 @@
 
 _{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
 
+## Specifications
+
+Describe Destination(location, landmarks, cost, notes)
+
+Test: "It should return location: undefined if new Destination object is created with no key values"
+
+Expect (Destination().toEqual({undefined}))
+
+Test: "It should return "Destination.location: Paris" if the user inputs let Destination = new Destination("Paris")."
+
+Expect(Destination("Paris").toEqual({location: "Paris"}))
+
+
 ## Setup/Installation Requirements
 
 * _This is a great place_
